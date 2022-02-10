@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(226, 40, 101), rgb(55, 173, 205));
+    margin: auto; 
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2{   
+    font-size: 3rem;
+} 
+h2 span.material-icons{
+    font-size: 2.5rem;
+}
+
+.container{
+    margin: auto;
+    width: 95%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.user_input{
+    width: 600px;
+    text-align: center;
+    margin-top: 8px;
+}
+.user_input input{
+    width: 80%;
+    outline: none;
+    padding: 8px;
+    border: none;
+    height: 50px;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    font-family: 'Russo One', sans-serif;
+    font-size: 20px;
+    color: rgb(70, 64, 64);
+}
+
+.user_input input:focus{
+    box-shadow: 0px 0px 20px rgb(255, 30, 67);
+    border: 1px solid rgb(226, 40, 101);    
+}
+.user_input button{
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Russo One', sans-serif;
+    border: none;
+    height: 50px;
+    background-color: rgb(191, 194, 194);
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    font-size: 20px;
+    color: rgb(68, 61, 61);
+    border: 1px solid rgb(167, 164, 164);
+}
+.to-do{
+    margin: auto;
+    width: 500px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    color: rgb(46, 41, 41);
+    border: 1px solid rgb(110, 108, 108);   
+    height: 50px;
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-radius: 0.3rem;
+}
+
+.items span.material-icons{
+    font-size: 2rem;
+    cursor: pointer;
+}
